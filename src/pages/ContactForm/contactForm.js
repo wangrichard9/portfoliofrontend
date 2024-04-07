@@ -16,7 +16,7 @@ const ContactForm = () => {
   const sendEmail = event => {
     event.preventDefault();
     axios
-      .post("http://localhost:3030/send", { ...state })
+      .post("https://portfolioback-sae4.onrender.com/send", { ...state })
       .then(response => {
         setResult(response.data);
         setState({
