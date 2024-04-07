@@ -16,7 +16,7 @@ const Navbar = () => {
             
             </div>
 
-            <a href="https://github.com/wangrichard9">
+            <a href="https://github.com/wangrichard9" target="_blank">
                 <img src={github} height = {40} width = {40}  alt="" className="logo"/>
             </a>
 
