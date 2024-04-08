@@ -12,7 +12,7 @@ const Works = () => {
             <span className = "worksDesc">Here are a list of a couple of projects I have made with various tools </span>
             <div className="worksImgs">
                 <a href="https://bootstrappaintings.netlify.app/" target="_blank"><img src={Bootstrap} alt="" className="worksImg" /></a>
-                <img src={Todo} alt="" className="worksImg" />
+                <a href="https://taskappfront.onrender.com/" target="_blank"><img src={Todo} alt="" className="worksImg" /></a>
                 <a href="https://memorygameprojectt.netlify.app/" target="_blank"><img src={Memory} alt="" className="worksImg" /></a>
                 <a href="https://rwweatherapp.netlify.app/" target="_blank"><img src={Weather} alt="" className="worksImg" /></a>
             </div>
