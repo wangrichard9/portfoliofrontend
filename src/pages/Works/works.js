@@ -14,7 +14,7 @@ const Works = () => {
                 <a href="https://bootstrappaintings.netlify.app/" target="_blank"><img src={Bootstrap} alt="" className="worksImg" /></a>
                 <img src={Todo} alt="" className="worksImg" />
                 <a href="https://memorygameprojectt.netlify.app/" target="_blank"><img src={Memory} alt="" className="worksImg" /></a>
-                <img src={Weather} alt="" className="worksImg" />
+                <a href="https://rwweatherapp.netlify.app/" target="_blank"><img src={Weather} alt="" className="worksImg" /></a>
             </div>
         </section>
     );
